@@ -1,0 +1,122 @@
+/*компоненты*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    @include align-center;
+    background-color: $main-color;
+    height: 8vh;
+    padding: 2vh 0 2vh ;
+.header__logo{
+    width: 20vw;
+    padding: 7vh;
+    text-shadow: $shadow-text;
+}   
+.header__links{
+    @include flex-s;
+    width: 30vw;
+    height: 5vh;
+    margin-left: 25vw;
+}
+svg{
+    padding: 2.5px;
+    width: 30px;
+    height: 30px;
+}
+.header__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none  ;
+    font-weight: bold ;
+    color: purple;
+    font-size: 25px;
+    text-shadow: $shadow-text;
+}    
+.header__link:hover{
+    text-shadow: 2.2px 2.2px  rgba(0, 0, 0, 0.719);
+    transform: translateY(-1.5px);
+    transition: 1s;
+}
+
+}
+
+.header__heading{
+    font-family: 'Great Vibes';
+    color: purple;
+}
+
+.hero{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    margin: 2vw 0 0 4vw;
+    .heading__hero{
+
+    }
+    .p__heading{
+        width:25vw;
+        padding-top: 0.5vh;
+    }
+    .button__heading{
+        margin-top: 0.5vh;
+        background-color: white;
+        border: 1px solid;
+        border-radius: 5%  ;
+        box-shadow: 3px 3px 1px  #888;
+        width: 4vw;
+        height: 3.5vh;
+    }
+    .button__heading:hover{
+        @include main-hover;
+    }
+    .img__gora{
+        border-radius: 5% ;
+    }
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    .div_p{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 12.5vh;
+    }
+
+    .card{
+        width: 11vw ;
+        height: 22vh;
+        box-shadow: $shadow;
+        border-radius: 5%  ;
+        
+    }
+    .card:hover{
+        @include main-hover;
+    }
+    .card__img{
+        width: 11vw;
+        height: 12vh;
+        border-radius: 5% 5% 0 0;
+    }
+    .card__block{
+       height: 25px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: vh;
+    background-color: $main-color;
+    .footer__img{
+        width: 8%;
+        height: 8%;
+    }
+}

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*переменные*/
+/*миксины*/
+/*компоненты*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #EAEAEA;
+  height: 8vh;
+  padding: 2vh 0 2vh;
+}
+header .header__logo {
+  width: 20vw;
+  padding: 7vh;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.719);
+}
+header .header__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30vw;
+  height: 5vh;
+  margin-left: 25vw;
+}
+header svg {
+  padding: 2.5px;
+  width: 30px;
+  height: 30px;
+}
+header .header__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: purple;
+  font-size: 25px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.719);
+}
+header .header__link:hover {
+  text-shadow: 2.2px 2.2px rgba(0, 0, 0, 0.719);
+  transform: translateY(-1.5px);
+  transition: 1s;
+}
+
+.header__heading {
+  font-family: "Great Vibes";
+  color: purple;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2vw 0 0 4vw;
+}
+.hero .p__heading {
+  width: 25vw;
+  padding-top: 0.5vh;
+}
+.hero .button__heading {
+  margin-top: 0.5vh;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5%;
+  box-shadow: 3px 3px 1px #888;
+  width: 4vw;
+  height: 3.5vh;
+}
+.hero .button__heading:hover {
+  transform: translateY(-2.5px);
+  transition: 0.5s;
+}
+.hero .img__gora {
+  border-radius: 5%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main .div_p {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12.5vh;
+}
+.main .card {
+  width: 11vw;
+  height: 22vh;
+  box-shadow: 8px 8px 6px 1px #888;
+  border-radius: 5%;
+}
+.main .card:hover {
+  transform: translateY(-2.5px);
+  transition: 0.5s;
+}
+.main .card__img {
+  width: 11vw;
+  height: 12vh;
+  border-radius: 5% 5% 0 0;
+}
+.main .card__block {
+  height: 25px;
+  display: flex;
+  justify-content: end;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: vh;
+  background-color: #EAEAEA;
+}
+footer .footer__img {
+  width: 8%;
+  height: 8%;
+}/*# sourceMappingURL=main.css.map */
