@@ -37,7 +37,7 @@ header .header__link {
   align-items: center;
   text-decoration: none;
   font-weight: bold;
-  color: purple;
+  color: #55646B;
   font-size: 25px;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.719);
 }
@@ -49,7 +49,7 @@ header .header__link:hover {
 
 .header__heading {
   font-family: "Great Vibes";
-  color: purple;
+  color: #55646B;
 }
 
 .hero {
@@ -113,10 +113,36 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: vh;
+  margin-top: 15vh;
   background-color: #EAEAEA;
 }
+footer .footer__text {
+  color: #55646B;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.719);
+  font-family: "Boldonse";
+}
 footer .footer__img {
-  width: 8%;
-  height: 8%;
+  width: 27%;
+  height: 27%;
+}
+footer .footer__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+}
+footer .footer__svg {
+  width: 30px;
+  height: 30px;
+}
+footer .footer__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #55646B;
+  font-size: 25px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.719);
 }/*# sourceMappingURL=main.css.map */

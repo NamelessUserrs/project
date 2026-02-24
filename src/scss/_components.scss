@@ -28,11 +28,7 @@ svg{
 .header__link{
     display: flex;
     align-items: center;
-    text-decoration: none  ;
-    font-weight: bold ;
-    color: purple;
-    font-size: 25px;
-    text-shadow: $shadow-text;
+    @include link
 }    
 .header__link:hover{
     text-shadow: 2.2px 2.2px  rgba(0, 0, 0, 0.719);
@@ -44,7 +40,7 @@ svg{
 
 .header__heading{
     font-family: 'Great Vibes';
-    color: purple;
+    color: $text-color;
 }
 
 .hero{
@@ -113,10 +109,32 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: vh;
+    margin-top: 15vh;
     background-color: $main-color;
+    .footer__text{
+        color: $text-color;
+        text-shadow: $shadow-text;
+        font-family: 'Boldonse';
+    }
     .footer__img{
-        width: 8%;
-        height: 8%;
+        width: 27%;
+        height: 27%;
+    }
+    .footer__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20vw;
+    }
+    .footer__svg{
+        width: 30px;
+        height: 30px;
+    }
+    .footer__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include link
     }
 }

@@ -18,3 +18,10 @@
         transition: 0.5s ;
 
 }
+@mixin link{
+    text-decoration: none  ;
+    font-weight: bold ;
+    color: $text-color;
+    font-size: 25px;
+    text-shadow: $shadow-text;
+}
