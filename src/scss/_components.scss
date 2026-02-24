@@ -46,8 +46,11 @@ svg{
 .hero{
     display: flex;
     justify-content:space-around ;
+    height: 42vh;
+    width: 91vw;
     align-items: center;
     margin: 2vw 0 0 4vw;
+    box-shadow: 2px 2px 2px 3px inset #888;
     .heading__hero{
 
     }
@@ -69,11 +72,13 @@ svg{
     }
     .img__gora{
         border-radius: 5% ;
+ 
     }
 }
 .main{
     display: flex;
     flex-direction: column;
+
     .div_p{
         display: flex;
         justify-content: space-around;
@@ -136,5 +141,10 @@ footer{
         justify-content: center;
         align-items: center;
         @include link
+    }
+    .footer__link:hover{
+    text-shadow: 2.2px 2.2px  rgba(0, 0, 0, 0.719);
+    transform: translateY(-1.5px);
+    transition: 1s;
     }
 }

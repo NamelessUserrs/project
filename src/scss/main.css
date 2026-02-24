@@ -55,8 +55,11 @@ header .header__link:hover {
 .hero {
   display: flex;
   justify-content: space-around;
+  height: 42vh;
+  width: 91vw;
   align-items: center;
   margin: 2vw 0 0 4vw;
+  box-shadow: 2px 2px 2px 3px inset #888;
 }
 .hero .p__heading {
   width: 25vw;
@@ -145,4 +148,9 @@ footer .footer__link {
   color: #55646B;
   font-size: 25px;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.719);
+}
+footer .footer__link:hover {
+  text-shadow: 2.2px 2.2px rgba(0, 0, 0, 0.719);
+  transform: translateY(-1.5px);
+  transition: 1s;
 }/*# sourceMappingURL=main.css.map */
